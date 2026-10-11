@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Train Reservation</title>
+</head>
+<body>
+<h1>Train Reservation</h1>
+
+<input id="from" placeholder="From Station">
+<input id="to" placeholder="To Station">
+<input id="date" type="date">
+<button onclick="searchTrain()">Search Train</button>
+
+<p id="result"></p>
+
+<h2>Passenger Details</h2>
+<input id="name" placeholder="Passenger Name">
+<button onclick="book()">Book Ticket</button>
+
+<script>
+function searchTrain(){
+document.getElementById('result').innerText=
+'Express Train - Rs.450';
+}
+function book(){
+let n=document.getElementById('name').value;
+if(n==''){
+alert('Enter passenger name');
+}else{
+document.getElementById('result').innerText=
+'Ticket booked for '+n;
+}
+}
+</script>
+</body>
+</html>
