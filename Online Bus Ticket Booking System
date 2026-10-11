@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bus Booking</title>
+</head>
+<body>
+<h1>Bus Ticket Booking</h1>
+
+<input id="f" placeholder="From">
+<input id="t" placeholder="To">
+<input id="d" type="date">
+<button onclick="searchBus()">Search Bus</button>
+
+<p id="result"></p>
+
+<h2>Passenger Details</h2>
+<input id="n" placeholder="Passenger Name">
+<button onclick="book()">Book Ticket</button>
+
+<script>
+function searchBus(){
+result.innerText='Express Bus - Rs.500';
+}
+function book(){
+if(n.value==''){
+alert('Enter passenger name');
+}else{
+result.innerText='Ticket booked for '+n.value;
+}
+}
+</script>
+</body>
+</html>
