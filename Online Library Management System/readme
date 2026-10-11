@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Online Library</title>
+</head>
+<body>
+<h1>Online Library Management</h1>
+
+<h2>Search Books</h2>
+<input id="s" placeholder="Enter book name">
+<button onclick="search()">Search</button>
+
+<div id="books">
+<p>HTML Book</p>
+<p>Java Book</p>
+<p>Python Book</p>
+</div>
+
+<h2>Student Login</h2>
+<input id="n" placeholder="Student name">
+<button onclick="login()">Login</button>
+<p id="msg"></p>
+
+<h2>Contact Librarian</h2>
+<input id="m" placeholder="Enter message">
+<button onclick="contact()">Submit</button>
+
+<script>
+function search(){
+let q=document.getElementById('s').value.toLowerCase();
+let b=document.getElementById('books');
+b.innerHTML=['HTML Book','Java Book','Python Book']
+.filter(x=>x.toLowerCase().includes(q))
+.map(x=>'<p>'+x+'</p>').join('');
+}
+function login(){
+msg.innerText=n.value?
+'Welcome '+n.value:'Enter your name';
+}
+function contact(){
+alert('Message submitted');
+}
+</script>
+</body>
+</html>
