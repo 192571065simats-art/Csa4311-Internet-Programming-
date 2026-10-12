@@ -1,0 +1,17 @@
+<html>
+<head>
+    <title>Saveetha Round Building</title>
+</head>
+
+<body>
+    <h1>Saveetha Round Building</h1>
+    <h2>Saveetha School of Engineering</h2>
+
+    <img src="https://arms.smc.saveetha.com/Content/images/round_building_SSE.jpg"
+         width="500" height="300"
+         alt="Saveetha Round Building">
+
+    <p>Welcome to Saveetha School of Engineering.</p>
+    <p>Location: Thandalam, Chennai, Tamil Nadu</p>
+</body>
+</html>
