@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Arithmetic Operations</title>
+</head>
+
+<body>
+
+<h1>Arithmetic Operations</h1>
+
+<input type="number" id="a" placeholder="Enter first number">
+<input type="number" id="b" placeholder="Enter second number">
+
+<br><br>
+
+<button onclick="calculate('+')">Addition</button>
+<button onclick="calculate('-')">Subtraction</button>
+<button onclick="calculate('*')">Multiplication</button>
+<button onclick="calculate('/')">Division</button>
+
+<h2 id="answer">Answer:</h2>
+
+<script>
+
+function calculate(op) {
+
+    let a = Number(document.getElementById("a").value);
+    let b = Number(document.getElementById("b").value);
+    let result;
+
+    if (op == '+')
+        result = a + b;
+
+    else if (op == '-')
+        result = a - b;
+
+    else if (op == '*')
+        result = a * b;
+
+    else if (op == '/')
+        result = a / b;
+
+    document.getElementById("answer").innerHTML =
+        "Answer: " + result;
+}
+
+</script>
+
+</body>
+</html>
