@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Marks</title>
+</head>
+
+<body>
+
+<h1>Student Marks</h1>
+
+<table border="1">
+    <tr>
+        <th>S.No</th>
+        <th>Student Name</th>
+        <th>CO1</th>
+        <th>CO2</th>
+        <th>Model Marks</th>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td>Student 1</td>
+        <td>80</td>
+        <td>85</td>
+        <td>82</td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td>Student 2</td>
+        <td>75</td>
+        <td>80</td>
+        <td>78</td>
+    </tr>
+
+    <tr>
+        <td>3</td>
+        <td>Student 3</td>
+        <td>90</td>
+        <td>88</td>
+        <td>92</td>
+    </tr>
+
+    <tr>
+        <td>4</td>
+        <td>Student 4</td>
+        <td>70</td>
+        <td>75</td>
+        <td>72</td>
+    </tr>
+
+    <tr>
+        <td>5</td>
+        <td>Student 5</td>
+        <td>85</td>
+        <td>90</td>
+        <td>88</td>
+    </tr>
+</table>
+
+</body>
+</html>
