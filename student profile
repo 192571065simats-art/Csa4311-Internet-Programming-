@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Profile</title>
+</head>
+
+<body>
+
+<h1>Student Profile</h1>
+
+<p><b>Name:</b> Your Name</p>
+<p><b>Department:</b> Computer Science and Biosciences</p>
+<p><b>College:</b> Saveetha School of Engineering</p>
+<p><b>Year:</b> Second Year</p>
+<p><b>Course:</b> B.Tech CSE with Biosciences</p>
+<p><b>Skills:</b> C++, HTML, Python</p>
+<p><b>Hobbies:</b> Reading and Music</p>
+
+</body>
+</html>
