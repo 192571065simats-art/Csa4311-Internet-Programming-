@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>MedCare Hospital</title>
+</head>
+<body>
+<h1>MedCare Hospital</h1>
+<h2>Book Appointment</h2>
+
+<form>
+Name: <input type="text"><br><br>
+Email: <input type="email"><br><br>
+Doctor:
+<select>
+<option>Cardiologist</option>
+<option>Dermatologist</option>
+<option>General Doctor</option>
+</select><br><br>
+Date: <input type="date"><br><br>
+Time: <input type="time"><br><br>
+<button type="button"
+onclick="alert('Appointment Booked')">
+Book Appointment</button>
+</form>
+</body>
+</html>
