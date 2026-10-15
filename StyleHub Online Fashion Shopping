@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>StyleHub</title>
+</head>
+<body>
+<h1>StyleHub Fashion Store</h1>
+<h2>Fashion Products</h2>
+
+<h3>T-Shirt - Rs.500</h3>
+<button onclick="alert('Added to Cart')">
+Add to Cart</button>
+
+<h3>Jeans - Rs.1200</h3>
+<button onclick="alert('Added to Cart')">
+Add to Cart</button>
+
+<h3>Shoes - Rs.1800</h3>
+<button onclick="alert('Added to Cart')">
+Add to Cart</button>
+
+<h2>Special Offers</h2>
+<p>Enjoy discounts on fashion products!</p>
+</body>
+</html>
