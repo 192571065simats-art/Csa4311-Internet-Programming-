@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>TechSavvy</title>
+</head>
+<body>
+<h1>TechSavvy Shopping</h1>
+<h2>Electronics Products</h2>
+
+<h3>Smartphone - Rs.15000</h3>
+<button onclick="alert('Added to Cart')">
+Add to Cart</button>
+
+<h3>Laptop - Rs.45000</h3>
+<button onclick="alert('Added to Cart')">
+Add to Cart</button>
+
+<h3>Headphones - Rs.1500</h3>
+<button onclick="alert('Added to Cart')">
+Add to Cart</button>
+
+</body>
+</html>
