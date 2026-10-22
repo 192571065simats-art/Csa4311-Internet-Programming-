@@ -1,0 +1,16 @@
+
+<html>
+<body>
+<h2>EasyToll</h2>
+Vehicle Number: <input id="a"><br><br>
+Amount: <input id="b"><br><br>
+<button onclick="show()">Preview</button>
+<p id="out"></p>
+<script>
+function show(){
+out.innerHTML="Vehicle: "+a.value+
+"<br>Amount: Rs. "+b.value;
+}
+</script>
+</body>
+</html>
