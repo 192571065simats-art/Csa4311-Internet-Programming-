@@ -1,0 +1,20 @@
+
+<html>
+<body>
+<h2>BlossomGifts</h2>
+Name: <input id="a"><br><br>
+Gift:
+<select id="b">
+<option>Rose Bouquet</option>
+<option>Chocolate Box</option>
+</select><br><br>
+<button onclick="show()">Preview</button>
+<p id="out"></p>
+<script>
+function show(){
+out.innerHTML="Name: "+a.value+
+"<br>Gift: "+b.value;
+}
+</script>
+</body>
+</html>
