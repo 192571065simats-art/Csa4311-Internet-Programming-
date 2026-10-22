@@ -1,0 +1,22 @@
+
+<html>
+<body>
+<h2>InsureEasy</h2>
+Name: <input id="a"><br><br>
+Insurance:
+<select id="b">
+<option>Health</option>
+<option>Vehicle</option>
+</select><br><br>
+Premium: <input id="c"><br><br>
+<button onclick="show()">Preview</button>
+<p id="out"></p>
+<script>
+function show(){
+out.innerHTML="Name: "+a.value+
+"<br>Insurance: "+b.value+
+"<br>Premium: Rs. "+c.value;
+}
+</script>
+</body>
+</html>
