@@ -1,0 +1,16 @@
+
+<html>
+<body>
+<h2>ReNewMarket</h2>
+Product: <input id="a"><br><br>
+Price: <input id="b"><br><br>
+<button onclick="show()">Preview</button>
+<p id="out"></p>
+<script>
+function show(){
+out.innerHTML="Product: "+a.value+
+"<br>Price: Rs. "+b.value;
+}
+</script>
+</body>
+</html>
