@@ -1,0 +1,28 @@
+interface Rental {
+    id: number;
+    customer: string;
+    vehicle: string;
+    days: number;
+    price: number;
+    status: string;
+}
+
+var rentals: Rental[] = [
+    {id: 101, customer: "Divya", vehicle: "Car", days: 2, price: 1500, status: "Booked"},
+    {id: 102, customer: "Ravi", vehicle: "Bike", days: 3, price: 500, status: "Booked"}
+];
+
+console.log("Vehicle Rental Details");
+
+for (var r of rentals) {
+    console.log("ID: " + r.id);
+    console.log("Customer: " + r.customer);
+    console.log("Vehicle: " + r.vehicle);
+    console.log("Days: " + r.days);
+    console.log("Total Rent: " + r.price * r.days);
+    console.log("Status: " + r.status);
+    console.log("----------------");
+}
+
+rentals[0].status = "Returned";
+console.log("Updated Status: " + rentals[0].status);
