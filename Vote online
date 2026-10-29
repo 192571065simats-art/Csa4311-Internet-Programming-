@@ -1,0 +1,24 @@
+interface Vote {
+    id: number;
+    voter: string;
+    candidate: string;
+    status: string;
+}
+
+var votes: Vote[] = [
+    {id: 101, voter: "Divya", candidate: "Candidate A", status: "Not Voted"},
+    {id: 102, voter: "Ravi", candidate: "Candidate B", status: "Not Voted"}
+];
+
+console.log("Voting Details");
+
+for (var v of votes) {
+    console.log("ID: " + v.id);
+    console.log("Voter: " + v.voter);
+    console.log("Candidate: " + v.candidate);
+    console.log("Status: " + v.status);
+    console.log("----------------");
+}
+
+votes[0].status = "Voted";
+console.log("Updated Status: " + votes[0].status);
