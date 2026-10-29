@@ -1,0 +1,26 @@
+interface AnimalCare {
+    id: number;
+    farmer: string;
+    animal: string;
+    symptoms: string;
+    status: string;
+}
+
+var animals: AnimalCare[] = [
+    {id: 101, farmer: "Ravi", animal: "Cow", symptoms: "Fever", status: "Pending"},
+    {id: 102, farmer: "Divya", animal: "Goat", symptoms: "Not Eating", status: "Pending"}
+];
+
+console.log("Animal Healthcare Details");
+
+for (var a of animals) {
+    console.log("ID: " + a.id);
+    console.log("Farmer: " + a.farmer);
+    console.log("Animal: " + a.animal);
+    console.log("Symptoms: " + a.symptoms);
+    console.log("Status: " + a.status);
+    console.log("----------------");
+}
+
+animals[0].status = "Consultation Completed";
+console.log("Updated Status: " + animals[0].status);
