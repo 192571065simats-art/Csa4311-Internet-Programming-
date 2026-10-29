@@ -1,0 +1,26 @@
+interface Product {
+    id: number;
+    name: string;
+    price: number;
+    quantity: number;
+}
+
+var products: Product[] = [
+    {id: 101, name: "Seeds", price: 200, quantity: 3},
+    {id: 102, name: "Fertilizer", price: 500, quantity: 2}
+];
+
+console.log("Agricultural Products");
+
+for (var p of products) {
+    console.log("ID: " + p.id);
+    console.log("Product: " + p.name);
+    console.log("Price: " + p.price);
+    console.log("Quantity: " + p.quantity);
+    console.log("Total: " + p.price * p.quantity);
+    console.log("----------------");
+}
+
+products[0].quantity = 5;
+console.log("Updated Quantity: " + products[0].quantity);
+console.log("Updated Total: " + products[0].price * products[0].quantity);
